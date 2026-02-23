@@ -49,7 +49,7 @@
         },
         {
           "id": "qwen3-coder-next",
-          "name": "qwen3-coder-next - Non-Thinking Only",
+          "name": "qwen3-coder-next Non-Thinking Only",
           "reasoning": false,
           "input": ["text", "image"],
           "cost": { "input": 0.8, "output": 4, "cacheRead": 0, "cacheWrite": 0 },
