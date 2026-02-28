@@ -1,6 +1,9 @@
 # Pi-Mono-Alibaba
 Configuration files for Pi-Mono (json) and Oh-My-Pi (yaml) to use Alibaba's coding plan.
 
+## Installation
+If using pi-mono, place models.json in ~/.pi/agent , if using oh-my-pi place models.yml in ~/.omp/agent
+
 ## Models
 qwen3-max-2026-01-23
 qwen3.5-plus
