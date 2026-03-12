@@ -1,8 +1,8 @@
 providers:
   Alibaba:
-    baseUrl: https://coding-intl.dashscope.aliyuncs.com/v1
+    baseUrl: "https://coding-intl.dashscope.aliyuncs.com/v1"
     api: openai-completions
-    apiKey: 
+    apiKey: ""
     auth: apiKey
     authHeader: true
     models:
@@ -59,7 +59,7 @@ providers:
           thinkingFormat: qwen
 
       - id: glm-4.7
-        name: glm-4.7
+        name: "glm-4.7"
         reasoning: true
         input:
           - text
@@ -77,7 +77,7 @@ providers:
           thinkingFormat: qwen
 
       - id: glm-5
-        name: glm-5
+        name: "glm-5"
         reasoning: true
         input:
           - text
@@ -94,7 +94,7 @@ providers:
           thinkingFormat: qwen
 
       - id: MiniMax-M2.5
-        name: MiniMax-M2.5
+        name: "MiniMax-M2.5"
         reasoning: true
         input:
           - text
@@ -111,7 +111,7 @@ providers:
           thinkingFormat: qwen
 
       - id: kimi-k2.5
-        name: kimi-k2.5
+        name: "kimi-k2.5"
         reasoning: true
         input:
           - text

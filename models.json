@@ -15,9 +15,11 @@
           "cost": { "input": 3, "output": 15, "cacheRead": 3, "cacheWrite": 3.75 },
           "contextWindow": 262144,
           "maxTokens": 65536,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "qwen3.5-plus",
@@ -27,9 +29,11 @@
           "cost": { "input": 0.5, "output": 3, "cacheRead": 0.6, "cacheWrite": 0.625 },
           "contextWindow": 1000000,
           "maxTokens": 65536,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "qwen3-coder-next",
@@ -39,9 +43,11 @@
           "cost": { "input": 0.8, "output": 4, "cacheRead": 0, "cacheWrite": 0 },
           "contextWindow": 262144,
           "maxTokens": 65536,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "glm-4.7",
@@ -51,9 +57,11 @@
           "cost": { "input": 0.431, "output": 3.154, "cacheRead": 0, "cacheWrite": 0 },
           "contextWindow": 202752,
           "maxTokens": 16384,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "glm-5",
@@ -63,9 +71,11 @@
           "cost": { "input": 0.573, "output": 0.86, "cacheRead": 0.0573, "cacheWrite": 0.573 },
           "contextWindow": 202752,
           "maxTokens": 16384,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "MiniMax-M2.5",
@@ -75,9 +85,11 @@
           "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
           "contextWindow": 196608,
           "maxTokens": 32768,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         },
         {
           "id": "kimi-k2.5",
@@ -87,9 +99,11 @@
           "cost": { "input": 0.574, "output": 3.011, "cacheRead": 0.0574, "cacheWrite": 0.7175 },
           "contextWindow": 262144,
           "maxTokens": 32768,
-          "compat": { "supportsDeveloperRole": false,
+          "compat": {
+            "supportsDeveloperRole": false,
             "supportsReasoningEffort": true,
-            "thinkingFormat": "qwen" }
+            "thinkingFormat": "qwen"
+          }
         }
       ]
     }
